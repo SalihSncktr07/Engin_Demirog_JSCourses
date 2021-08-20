@@ -1,13 +1,16 @@
-﻿function sayiUret(){
-    
+﻿function sayiUret(ustLimit) {
+    return Math.ceil(Math.random() * ustLimit < !--15-- >) // Math.random(random sayı üretir)     Math.ceil(sayı yuvarlar) 
+
 }
 
+//Format Documant(shift+alt+f) dosyayı düzenler
+sayiUret()
 
-var sayi1 = Math.ceil(Math.random() * 15) // Math.random(random sayı üretir)     Math.ceil(sayı yuvarlar) 
-var sayi2 = 61
-var sayi3 = 31
-var sayi4 = 45
-var sayi5 = 17
-var sayi6 = 67
+var sayi1 = sayiUret(49)
+var sayi2 = sayiUret(49)
+var sayi3 = sayiUret(49)
+var sayi4 = sayiUret(49)
+var sayi5 = sayiUret(49)
+var sayi6 = sayiUret(49)
 
-console.log("Kolon :" + sayi1 +" "+ sayi2 +" "+ sayi3 +" "+ sayi4 +" "+ sayi5 +" "+ sayi6)
+console.log("Kolon :" + sayi1 + " " + sayi2 + " " + sayi3 + " " + sayi4 + " " + sayi5 + " " + sayi6)
