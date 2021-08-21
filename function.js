@@ -1,5 +1,5 @@
 ﻿function sayiUret(ustLimit) {
-    return Math.ceil(Math.random() * ustLimit < !--15-- >) // Math.random(random sayı üretir)     Math.ceil(sayı yuvarlar) 
+    return Math.ceil(Math.random() * ustLimit /* 15 */) // Math.random(random sayı üretir)     Math.ceil(sayı yuvarlar) 
 
 }
 
